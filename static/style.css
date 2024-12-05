@@ -1,0 +1,94 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+    background: linear-gradient(135deg, #1e1e1e, #2b2b2b);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Header */
+.header {
+    padding: 20px;
+    background: #202020;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #00ffc6;
+    font-weight: 600;
+}
+
+/* Main Content */
+.main-content {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-wrapper {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 15px;
+    overflow: hidden;
+    /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); */
+}
+
+.video-feed {
+    width: 100%;
+    border: 4px solid #00ffc6;
+    border-radius: 15px;
+}
+
+/* Instructions */
+.instructions {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #d3d3d3;
+}
+
+.instructions .highlight {
+    color: #00ffc6;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background: #202020;
+    padding: 15px;
+    width: 100%;
+    color: #7e7e7e;
+    font-size: 0.9rem;
+    border-top: 1px solid #333;
+}
+
+.footer p {
+    margin: 0;
+    font-weight: 300;
+}
